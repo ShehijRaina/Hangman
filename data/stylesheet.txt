@@ -1,0 +1,79 @@
+/* Background */
+QWidget {
+    background-color: #181825;
+    color: #f5f5f5;
+    /* font-family: "Consolas"; */
+    font-size: 16px;
+}
+
+/* Title */
+QLabel#title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #facc15;
+    padding: 6px;
+}
+
+/* Quote */
+QLabel#quote {
+    font-size: 26px;
+    font-weight: 600;
+    /* font-family: "Consolas"; */
+    letter-spacing: 4px;
+    color: #ffffff;
+
+    background-color: #232336;
+    border: 2px solid #31314a;
+    border-radius: 14px;
+
+    padding: 20px;
+    margin: 12px;
+}
+
+/* Lives */
+QLabel#lives {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fb7185;
+
+    background-color: #2a1f2a;
+    border-radius: 10px;
+
+    padding: 10px 16px;
+}
+
+/* Hangman ASCII Image ===== */
+QLabel#image {
+    font-size: 20px;
+    font-family: "Courier New"; /* monspaced font */
+    color: #cbd5e1;
+
+    background-color: #202030;
+    border-radius: 14px;
+
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Buttons (Game Over Notification) */
+QPushButton {
+    background-color: #3b82f6;
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+
+    padding: 12px 18px;
+    font-size: 16px;
+    font-weight: 600;
+
+    min-width: 40px;
+}
+
+QPushButton:hover {
+    background-color: #60a5fa;
+}
+
+QPushButton:pressed {
+    background-color: #2563eb;
+}
